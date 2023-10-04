@@ -1,0 +1,11 @@
+
+
+.chessboard {
+    width: 90vw; /* Chessboard width based on viewport */
+    max-width: 550px; /* Set a max width */
+}
+
+.row {
+    display: flex;
+    width: 100%;
+}

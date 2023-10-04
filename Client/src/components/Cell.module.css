@@ -1,0 +1,23 @@
+.cell {
+    flex: 1; /* This allows each cell in a row to take equal width */
+    position: relative; /* This is to position the image inside it */
+    padding-bottom: 12.5%; /* Helps maintain the square shape for each cell */
+    opacity: 0.8;
+}
+
+.white {
+    background-color: #eee;
+}
+
+.black {
+    background-color: #333;
+}
+
+.img {
+    max-width: 110%; /* Adjust based on the desired size of the chess piece inside the cell */
+    max-height: 110%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
